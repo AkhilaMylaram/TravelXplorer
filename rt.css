@@ -1,0 +1,224 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    background: #444;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styles for specific sections */
+#home {
+    text-align: center;
+    padding: 100px 0;
+    background: url('https://images.hindustantimes.com/img/2023/01/10/1600x900/While-the-past-year-was-about-revenge-and-revival-_1673351689949.jpg') center/cover;
+    color: #fff;
+    height:100vh;
+}
+
+#home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-left:130px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-style: italic;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    margin-left:80px;
+    color:#171714;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.collection {
+    display: inline-block;
+    width: 30%;
+    margin-right: 2%;
+    vertical-align: top;
+}
+
+.collection img {
+    width: 100%;
+    height: auto;
+}
+
+.collection h3 {
+    margin-top: 10px;
+}
+
+.collection p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#packages {
+    margin-top: 50px;
+}
+
+.package {
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.package img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.package-details {
+    padding: 20px;
+}
+
+.package-details h3 {
+    margin-bottom: 10px;
+}
+
+.package-details p {
+    margin-bottom: 5px;
+}
+
+.btn {
+    display: block;
+    background-color: #cfcfcf;
+    color: #0c0b0b;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color:#517b87;
+    border-color: #171714;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    header nav ul {
+        flex-direction: column; 
+    }
+
+    .package {
+        width: 100%; 
+        margin-bottom: 20px;
+    }
+
+    .package img {
+        width: 100%; 
+        height: auto; 
+
+   
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px; 
+    }
+
+    .package {
+      width:100%;
+      margin-bottom: 20px;
+    }
+    .package img{
+        width:100%;
+        height:auto;
+    }
+
+    
+}
